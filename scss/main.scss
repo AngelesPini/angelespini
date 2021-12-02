@@ -1,0 +1,138 @@
+$size:3em;
+$imagenes: 70%;
+$tamano-s: 100px;
+$color: black;
+$separacion: 100px 10px 5px 10px;
+@mixin size {
+    top: 300px;
+    margin-bottom: 500px;
+    margin-right: 500px;
+    margin: $separacion;
+}
+main {
+    .coder{
+        color: black;
+        font-size:$size*2;
+        font-family: 'Barlow Condensed', sans-serif;
+        }
+    .diseño {
+        color: black;
+        font-size:$size*2;
+        font-family: 'Dancing Script';
+        }
+    p {
+        font-family: 'Barlow Condensed', sans-serif;
+        font-size:$size/2;
+        color: black;
+    }
+      ul li {
+          list-style-type: none;
+          text-decoration: none;
+
+      }
+      h1 {
+        animation-name: aparecer;
+        animation-iteration-count: 1;
+        animation-timing-function: ease-in-out;
+        animation-duration: 2s;
+        animation-delay: .3s;
+    }
+    @keyframes aparecer {
+            0% {
+              opacity: 0;
+            }
+            25% {
+                opacity: .25;
+            }
+            50% {
+                opacity: .5;
+            }
+            75% {
+                opacity: .75;
+            }
+            100% {
+              opacity: 1;
+            }
+    }
+    h1 {
+        font-size: $size;
+        font-family: 'Dancing Script';
+        color: black;
+    }
+    h2 {
+        font-size: $size;
+        font-family: 'Dancing Script';
+        color: black;   
+    }
+    h3 {
+        font-size: $size;
+        font-family: 'Dancing Script';
+        color: black;
+        
+    }
+    h4 {
+        color: black;
+        font-size:$size/2;
+        font-family: 'Barlow Condensed', sans-serif;    
+    }
+    .img {
+        width: 200px;
+        height: 200px;
+    }
+
+    .item:hover {
+    transform: scale(2.2,2.2);
+    }
+    .telas {
+    width: 80%;
+    height: 80%;
+    }
+    .texto {
+    font-size: $size;
+    font-family: 'Barlow Condensed', sans-serif;
+    color: rgb(31, 0, 29);
+    padding: 15px;
+
+    }   
+    .ilustracion {
+    justify-content: right;
+    margin-left: 10px;
+    }
+    .resp {
+    padding: 100px;
+    }
+    .charlemos {
+    margin: $tamano-s/2;
+    padding: 15px;
+    margin-left: 620px;
+    font-size: 1.3em;
+    font-family: 'Barlow Condensed', sans-serif;
+    }
+    button {
+    background-color: $color;
+    color: $color;
+    }
+    .item {
+        display: grid;
+        justify-content: center;
+        justify-items: center;
+    }
+    .pantalla {
+        width: 640px;
+        height: 480px;
+    }
+    .pant {
+        justify-content: right;
+        justify-items: right;
+    }
+    .txt {
+        padding: 60px;
+    }
+    .preguntas {
+        @include size;
+        color: black;
+    }
+    p {
+        font-size: 1.3em;
+    }
+}

@@ -1,0 +1,44 @@
+@media screen and (max-width:768px){
+    body {
+    display: grid;
+    grid-template-areas: 
+    "nav nav nav"
+    "header header header"
+    "main main main"
+    "footer footer footer";
+}
+nav {
+    grid-area: nav;
+}
+header {
+    grid-area: header;
+}
+main {
+    grid-area: main;
+}
+footer {
+    grid-area: footer;
+}
+img {
+    padding: 10px;
+    margin: 5px;
+}
+.resp {
+    padding: 5px;
+    margin: 25px;
+}
+.charlemos {
+    justify-content: center;
+    justify-items: center;
+    padding: 15px;
+    font-size: 1.3em;
+    font-family: 'Barlow Condensed', sans-serif;
+    }
+.btn-primary {
+    justify-content: center;
+    left: 100px;
+}
+.navbar {
+    justify-content: end;
+}
+}

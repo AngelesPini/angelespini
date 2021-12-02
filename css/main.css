@@ -1,0 +1,207 @@
+@charset "UTF-8";
+body {
+  background-image: url(../media/1st-background.jpg);
+  background-color: beige;
+  background-attachment: fixed;
+  background-size: auto;
+  display: grid;
+  grid-template-areas: "nav nav nav" "header header header" "main main main" "footer footer footer"; }
+  body nav {
+    grid-area: nav; }
+  body header {
+    grid-area: header; }
+  body main {
+    grid-area: main; }
+  body footer {
+    grid-area: footer; }
+
+nav {
+  background-color: black; }
+  nav ul li a {
+    font-family: 'Dancing Script', cursive;
+    margin: 15px;
+    justify-content: end; }
+  nav .nav {
+    align-items: baseline; }
+  nav .home {
+    font-family: 'Barlow Condensed', sans-serif; }
+  nav img.logo {
+    width: 50px;
+    height: 50px;
+    float: left; }
+
+header h1 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 6em; }
+
+header h2 {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 3em; }
+
+header h1 {
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+  animation-delay: .3s; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  25% {
+    opacity: .25; }
+  50% {
+    opacity: .5; }
+  75% {
+    opacity: .75; }
+  100% {
+    opacity: 1; } }
+
+main .coder {
+  color: black;
+  font-size: 6em;
+  font-family: 'Barlow Condensed', sans-serif; }
+
+main .diseño {
+  color: black;
+  font-size: 6em;
+  font-family: 'Dancing Script'; }
+
+main p {
+  font-family: 'Barlow Condensed', sans-serif;
+  font-size: 1.5em;
+  color: black; }
+
+main ul li {
+  list-style-type: none;
+  text-decoration: none; }
+
+main h1 {
+  animation-name: aparecer;
+  animation-iteration-count: 1;
+  animation-timing-function: ease-in-out;
+  animation-duration: 2s;
+  animation-delay: .3s; }
+
+@keyframes aparecer {
+  0% {
+    opacity: 0; }
+  25% {
+    opacity: .25; }
+  50% {
+    opacity: .5; }
+  75% {
+    opacity: .75; }
+  100% {
+    opacity: 1; } }
+
+main h1 {
+  font-size: 3em;
+  font-family: 'Dancing Script';
+  color: black; }
+
+main h2 {
+  font-size: 3em;
+  font-family: 'Dancing Script';
+  color: black; }
+
+main h3 {
+  font-size: 3em;
+  font-family: 'Dancing Script';
+  color: black; }
+
+main h4 {
+  color: black;
+  font-size: 1.5em;
+  font-family: 'Barlow Condensed', sans-serif; }
+
+main .img {
+  width: 200px;
+  height: 200px; }
+
+main .item:hover {
+  transform: scale(2.2, 2.2); }
+
+main .telas {
+  width: 80%;
+  height: 80%; }
+
+main .texto {
+  font-size: 3em;
+  font-family: 'Barlow Condensed', sans-serif;
+  color: #1f001d;
+  padding: 15px; }
+
+main .ilustracion {
+  justify-content: right;
+  margin-left: 10px; }
+
+main .resp {
+  padding: 100px; }
+
+main .charlemos {
+  margin: 50px;
+  padding: 15px;
+  margin-left: 620px;
+  font-size: 1.3em;
+  font-family: 'Barlow Condensed', sans-serif; }
+
+main button {
+  background-color: black;
+  color: black; }
+
+main .item {
+  display: grid;
+  justify-content: center;
+  justify-items: center; }
+
+main .pantalla {
+  width: 640px;
+  height: 480px; }
+
+main .pant {
+  justify-content: right;
+  justify-items: right; }
+
+main .txt {
+  padding: 60px; }
+
+main .preguntas {
+  top: 300px;
+  margin-bottom: 500px;
+  margin-right: 500px;
+  margin: 100px 10px 5px 10px;
+  color: black; }
+
+main p {
+  font-size: 1.3em; }
+
+@media screen and (max-width: 768px) {
+  body {
+    display: grid;
+    grid-template-areas: "nav nav nav" "header header header" "main main main" "footer footer footer"; }
+  nav {
+    grid-area: nav; }
+  header {
+    grid-area: header; }
+  main {
+    grid-area: main; }
+  footer {
+    grid-area: footer; }
+  img {
+    padding: 10px;
+    margin: 5px; }
+  .resp {
+    padding: 5px;
+    margin: 25px; }
+  .charlemos {
+    justify-content: center;
+    justify-items: center;
+    padding: 15px;
+    font-size: 1.3em;
+    font-family: 'Barlow Condensed', sans-serif; }
+  .btn-primary {
+    justify-content: center;
+    left: 100px; }
+  .navbar {
+    justify-content: end; } }

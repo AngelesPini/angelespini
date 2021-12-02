@@ -1,0 +1,11 @@
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@200&family=Dancing+Script&display=swap" rel="stylesheet">
+google fonts link
+
+<!--fonts family--!>
+font-family: 'Barlow Condensed', sans-serif;
+font-family: 'Dancing Script', cursive;
+Soy un diseñador de productos con sede en la soleada Sydney, Australia.
+
+Disfruto convirtiendo problemas complejos en diseños simples, hermosos e intuitivos. Cuando no estoy presionando píxeles, me encontrarás cocinando, trabajando en el jardín o haciendo ejercicio en el parque.
