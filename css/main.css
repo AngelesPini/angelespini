@@ -203,3 +203,6 @@ main .titulo {
     left: 100px; }
   .navbar {
     justify-content: end; } }
+
+footer a {
+  text-decoration: none; }
