@@ -171,10 +171,6 @@ main .preguntas {
 main p {
   font-size: 1.3em; }
 
-main .harry {
-  width: 70%;
-  height: 70%; }
-
 @media screen and (max-width: 768px) {
   body {
     display: grid;
