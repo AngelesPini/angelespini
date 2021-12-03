@@ -171,6 +171,9 @@ main .preguntas {
 main p {
   font-size: 1.3em; }
 
+main .titulo {
+  font-size: 6em; }
+
 @media screen and (max-width: 768px) {
   body {
     display: grid;
