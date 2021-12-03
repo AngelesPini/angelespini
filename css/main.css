@@ -205,4 +205,5 @@ main .titulo {
     justify-content: end; } }
 
 footer a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: black; }
