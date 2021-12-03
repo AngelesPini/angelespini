@@ -30,7 +30,7 @@ main {
           text-decoration: none;
 
       }
-      h1 {
+      h2 {
         animation-name: aparecer;
         animation-iteration-count: 1;
         animation-timing-function: ease-in-out;
@@ -54,11 +54,7 @@ main {
               opacity: 1;
             }
     }
-    h1 {
-        font-size: $size;
-        font-family: 'Dancing Script';
-        color: black;
-    }
+
     h2 {
         font-size: $size;
         font-family: 'Dancing Script';
