@@ -21,8 +21,7 @@ I'm starting to get involved in web development
 
 -Node.JS
 
-- 🌱 I’m currently learning JavaScript and Web Design
-- 👯 I’m looking to collaborate on design and development work teams 
+- 👯 I'm working with the FLIPA team
 - 💬 Ask me about what you want to know
 - 📫 How to reach me: angelesbpini@gmail.com 
 - 😄 Pronouns: She, her
@@ -34,8 +33,8 @@ I'm starting to get involved in web development
 
 Here are some ideas to get you started:
 
-- 🌱 I’m currently learning JavaScript and Web Design
-- 👯 I’m looking to collaborate on design and development work teams 
+- 🌱 I’m currently learning React.JS and Web Design
+- 👯 I'm working with the FLIPA team
 - 💬 Ask me about what you want to know
 - 📫 How to reach me: angelesbpini@gmail.com 
 - 😄 Pronouns: She, her
