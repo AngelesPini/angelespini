@@ -15,6 +15,11 @@ I'm starting to get involved in web development
 
 -Bootstrap
 
+-JavaScript
+
+-React.JS
+
+-Node.JS
 
 - 🌱 I’m currently learning JavaScript and Web Design
 - 👯 I’m looking to collaborate on design and development work teams 
