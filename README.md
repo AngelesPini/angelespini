@@ -21,7 +21,6 @@ I'm starting to get involved in web development
 
 -Node.JS
 
-- 👯 I'm working with the FLIPA team
 - 💬 Ask me about what you want to know
 - 📫 How to reach me: angelesbpini@gmail.com 
 - 😄 Pronouns: She, her
