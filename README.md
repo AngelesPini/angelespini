@@ -21,6 +21,8 @@ I'm starting to get involved in web development
 
 -Node.JS
 
+-Learning C++
+
 - 💬 Ask me about what you want to know
 - 📫 How to reach me: angelesbpini@gmail.com 
 - 😄 Pronouns: She, her
